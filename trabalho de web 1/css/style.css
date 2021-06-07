@@ -1,0 +1,133 @@
+
+
+body {
+  background-color: #21b8b8;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+button {
+  margin: 4px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #17494d;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #14858d;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-weight: bold;
+  list-style: none;
+  align-items: center;
+}
+
+footer {
+  background-color: #5d5f55;
+  margin-top: 18vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+footer button {
+  font-size: xx-large;
+  padding: 10px;
+  background-color: gray;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.navbar .button1 {
+  background-color: #f08b8b;
+}
+
+.navbar .button1:hover {
+  background-color: #bb6b6b;
+}
+
+.navbar .button2 {
+  background-color: #8bcbf0;
+}
+
+.navbar .button2:hover {
+  background-color: #6291ac;
+}
+
+.navbar .button3 {
+  background-color: #d08bf0;
+}
+
+.navbar .button3:hover {
+  background-color: #9f69b8;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.titulo {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.enviar {
+  color: white;
+  margin-left: 78%;
+}
+
+.excluir {
+  padding: 6px 8px 6px 8px;
+  margin-left: 50px;
+  font-size: x-large;
+}
+
+.excluir:hover {
+  background-color: #166b4f;
+  color: white;
+}
+
+.efeito-cursor {
+  color: #2e3d48;
+  animation: 1s blink step-end infinite;
+}
+
+
